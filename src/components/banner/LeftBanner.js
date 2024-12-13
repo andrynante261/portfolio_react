@@ -14,11 +14,11 @@ const LeftBanner = () => {
   return (
     <div className="w-full lgl:w-1/2 flex flex-col gap-10">
       <div className="flex flex-col gap-5">
-        <h4 className=" text-lg font-normal">BIENVENUE DANS MON ESPACE VIRTUEL {" "}
-          <span className="wave" role="img" aria-labelledby="wave">
-            👋🏻
-          </span>
-        </h4>
+        <h4 class=" text-lg font-normal" style="
+    position: relative;
+    top: 12px;
+    font-size: 12pt;
+">BIENVENUE DANS MON ESPACE VIRTUEL  <span class="wave" role="img" aria-labelledby="wave">👋🏻</span></h4>
         <h1 className="text-6xl font-bold text-white">
           Je suis <span className="text-designColor capitalize  @apply text-[#00fdff]">Arnaud</span>
         </h1>
